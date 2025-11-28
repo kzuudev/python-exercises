@@ -9,13 +9,13 @@ def largest_numbers(numbers):
     #
     # return largest
 
-    for(index, number) in enumerate(numbers):
-        largest_number = numbers[index]
+    largest_number = numbers[0]
 
-        if number > largest_number:
+    for(index, number) in enumerate(numbers):
+        if number > largest_number: # check if the current number is bigger. Otherwise (if not greater), do nothing — it just continues to the next number.
             largest_number = number
 
     return largest_number
 
-print(largest_numbers([10, 5, 40, 2, 99]))
+print(f"Largest number is:", largest_numbers([10, 82, 40, 2, 80]))
 
