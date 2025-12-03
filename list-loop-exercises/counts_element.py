@@ -3,14 +3,6 @@
 def count_element(words):
 
     counts = {}
-    count = 0
-    # for i in range(len(words)):
-    #     if words[i] in counts: # check if the specific elements existing in counts, then increment counts
-    #          counts[words[i]] += 1
-    #     else:
-    #          counts[words[i]] = 1 # else just add it in counts dictionary
-    #
-    # return counts
 
     for i in range(len(words)):
         count = 0  # reset count for each new word
@@ -28,7 +20,7 @@ def count_element(words):
 
 
 
-words = ["apple", "apple", "apple", "orange", "banana"]
+words = ["apple", "apple", "apple", "orange", "banana", "grapes"]
 count_occurence = count_element(words)
 print(count_occurence)
 

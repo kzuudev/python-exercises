@@ -21,7 +21,7 @@ def count_vowels(string):
     #             print(f"The word {string[j]} is a consonant")
     #             list_of_consonants.append(string[j])
 
-    for index, char in enumerate(string):
+    for char in string:
         count = 0
         if char in vowels:
              print(f"The word {char} is a vowel")
