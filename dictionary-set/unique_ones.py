@@ -20,5 +20,5 @@ def unique_words(words):
     return counts
 
 
-words = ["apple", "banana", "orange", "apple", "grape", "banana", "kiwi"]
+words = ["apple", "banana", "orange", "apple", "grape", "banana", "kiwi", "kangkong"]
 unique_words(words)
